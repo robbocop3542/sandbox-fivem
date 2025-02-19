@@ -1,0 +1,1 @@
+(self.webpackChunkParadise_phone=self.webpackChunkParadise_phone||[]).push([[2131],{72131:()=>{}}]);

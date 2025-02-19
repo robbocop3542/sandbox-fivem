@@ -1,6 +1,6 @@
 ![Logo](https://i.ibb.co/Tm01NWq/banner.png)
-# Sandbox RP
-This is a heavily modified version of Mythic Framework for Sandbox RP. This is a custsom framework that uses a component system, all UI's are built in React. This codebase is being released with the full permissions of the original Mythic Framework authors Alzar & Dr Nick
+# Paradise RP
+This is a heavily modified version of Mythic Framework for Paradise RP. This is a custsom framework that uses a component system, all UI's are built in React. This codebase is being released with the full permissions of the original Mythic Framework authors Alzar & Dr Nick
 
 ## Dependencies
 
@@ -20,13 +20,13 @@ This will not work out of the box, you will need to make modifications to the ba
 Clone the project
 
 ```bash
-  git clone git@github.com:badcodestv/sandbox-server.git
+  git clone git@github.com:badcodestv/Paradise-server.git
 ```
 
 Go to the project directory
 
 ```bash
-  cd sandboxrp-server
+  cd Paradiserp-server
 ```
 
 Download latest FiveM Windows Artifact

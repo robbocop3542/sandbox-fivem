@@ -1,6 +1,6 @@
 ---
 name: Feature request
-about: Suggest an idea for SandboxRP
+about: Suggest an idea for ParadiseRP
 title: "[FEATURE]"
 labels: enhancement
 assignees: ''

@@ -13,12 +13,12 @@
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 
--- Dumping database structure for fivem-sandboxrp
-DROP DATABASE IF EXISTS `fivem-sandboxrp`;
-CREATE DATABASE IF NOT EXISTS `fivem-sandboxrp` /*!40100 DEFAULT CHARACTER SET latin1 COLLATE latin1_swedish_ci */;
-USE `fivem-sandboxrp`;
+-- Dumping database structure for fivem-Paradiserp
+DROP DATABASE IF EXISTS `fivem-Paradiserp`;
+CREATE DATABASE IF NOT EXISTS `fivem-Paradiserp` /*!40100 DEFAULT CHARACTER SET latin1 COLLATE latin1_swedish_ci */;
+USE `fivem-Paradiserp`;
 
--- Dumping structure for table fivem-sandboxrp.app_profile_history
+-- Dumping structure for table fivem-Paradiserp.app_profile_history
 DROP TABLE IF EXISTS `app_profile_history`;
 CREATE TABLE IF NOT EXISTS `app_profile_history` (
   `sid` bigint(20) unsigned NOT NULL,
@@ -32,7 +32,7 @@ CREATE TABLE IF NOT EXISTS `app_profile_history` (
 
 -- Data exporting was unselected.
 
--- Dumping structure for table fivem-sandboxrp.bank_accounts
+-- Dumping structure for table fivem-Paradiserp.bank_accounts
 DROP TABLE IF EXISTS `bank_accounts`;
 CREATE TABLE IF NOT EXISTS `bank_accounts` (
   `account` int(10) NOT NULL,
@@ -47,7 +47,7 @@ CREATE TABLE IF NOT EXISTS `bank_accounts` (
 
 -- Data exporting was unselected.
 
--- Dumping structure for table fivem-sandboxrp.bank_accounts_permissions
+-- Dumping structure for table fivem-Paradiserp.bank_accounts_permissions
 DROP TABLE IF EXISTS `bank_accounts_permissions`;
 CREATE TABLE IF NOT EXISTS `bank_accounts_permissions` (
   `id` int(10) NOT NULL AUTO_INCREMENT,
@@ -66,7 +66,7 @@ CREATE TABLE IF NOT EXISTS `bank_accounts_permissions` (
 
 -- Data exporting was unselected.
 
--- Dumping structure for table fivem-sandboxrp.bank_accounts_transactions
+-- Dumping structure for table fivem-Paradiserp.bank_accounts_transactions
 DROP TABLE IF EXISTS `bank_accounts_transactions`;
 CREATE TABLE IF NOT EXISTS `bank_accounts_transactions` (
   `id` int(10) NOT NULL AUTO_INCREMENT,
@@ -83,7 +83,7 @@ CREATE TABLE IF NOT EXISTS `bank_accounts_transactions` (
 
 -- Data exporting was unselected.
 
--- Dumping structure for table fivem-sandboxrp.bench_schematics
+-- Dumping structure for table fivem-Paradiserp.bench_schematics
 DROP TABLE IF EXISTS `bench_schematics`;
 CREATE TABLE IF NOT EXISTS `bench_schematics` (
   `bench` char(64) CHARACTER SET ascii COLLATE ascii_bin NOT NULL,
@@ -93,7 +93,7 @@ CREATE TABLE IF NOT EXISTS `bench_schematics` (
 
 -- Data exporting was unselected.
 
--- Dumping structure for table fivem-sandboxrp.blueline_race_history
+-- Dumping structure for table fivem-Paradiserp.blueline_race_history
 DROP TABLE IF EXISTS `blueline_race_history`;
 CREATE TABLE IF NOT EXISTS `blueline_race_history` (
   `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
@@ -112,7 +112,7 @@ CREATE TABLE IF NOT EXISTS `blueline_race_history` (
 
 -- Data exporting was unselected.
 
--- Dumping structure for table fivem-sandboxrp.blueline_tracks
+-- Dumping structure for table fivem-Paradiserp.blueline_tracks
 DROP TABLE IF EXISTS `blueline_tracks`;
 CREATE TABLE IF NOT EXISTS `blueline_tracks` (
   `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
@@ -126,7 +126,7 @@ CREATE TABLE IF NOT EXISTS `blueline_tracks` (
 
 -- Data exporting was unselected.
 
--- Dumping structure for table fivem-sandboxrp.blueline_track_history
+-- Dumping structure for table fivem-Paradiserp.blueline_track_history
 DROP TABLE IF EXISTS `blueline_track_history`;
 CREATE TABLE IF NOT EXISTS `blueline_track_history` (
   `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
@@ -148,7 +148,7 @@ CREATE TABLE IF NOT EXISTS `blueline_track_history` (
 
 -- Data exporting was unselected.
 
--- Dumping structure for table fivem-sandboxrp.business_phones
+-- Dumping structure for table fivem-Paradiserp.business_phones
 DROP TABLE IF EXISTS `business_phones`;
 CREATE TABLE IF NOT EXISTS `business_phones` (
   `id` char(64) CHARACTER SET ascii COLLATE ascii_bin NOT NULL,
@@ -159,7 +159,7 @@ CREATE TABLE IF NOT EXISTS `business_phones` (
 
 -- Data exporting was unselected.
 
--- Dumping structure for table fivem-sandboxrp.character_app_profiles
+-- Dumping structure for table fivem-Paradiserp.character_app_profiles
 DROP TABLE IF EXISTS `character_app_profiles`;
 CREATE TABLE IF NOT EXISTS `character_app_profiles` (
   `sid` bigint(20) unsigned NOT NULL,
@@ -173,7 +173,7 @@ CREATE TABLE IF NOT EXISTS `character_app_profiles` (
 
 -- Data exporting was unselected.
 
--- Dumping structure for table fivem-sandboxrp.character_calls
+-- Dumping structure for table fivem-Paradiserp.character_calls
 DROP TABLE IF EXISTS `character_calls`;
 CREATE TABLE IF NOT EXISTS `character_calls` (
   `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
@@ -193,7 +193,7 @@ CREATE TABLE IF NOT EXISTS `character_calls` (
 
 -- Data exporting was unselected.
 
--- Dumping structure for table fivem-sandboxrp.character_chatter_groups
+-- Dumping structure for table fivem-Paradiserp.character_chatter_groups
 DROP TABLE IF EXISTS `character_chatter_groups`;
 CREATE TABLE IF NOT EXISTS `character_chatter_groups` (
   `sid` bigint(20) unsigned NOT NULL,
@@ -206,7 +206,7 @@ CREATE TABLE IF NOT EXISTS `character_chatter_groups` (
 
 -- Data exporting was unselected.
 
--- Dumping structure for table fivem-sandboxrp.character_contacts
+-- Dumping structure for table fivem-Paradiserp.character_contacts
 DROP TABLE IF EXISTS `character_contacts`;
 CREATE TABLE IF NOT EXISTS `character_contacts` (
   `id` bigint(20) unsigned NOT NULL AUTO_INCREMENT,
@@ -222,7 +222,7 @@ CREATE TABLE IF NOT EXISTS `character_contacts` (
 
 -- Data exporting was unselected.
 
--- Dumping structure for table fivem-sandboxrp.character_documents
+-- Dumping structure for table fivem-Paradiserp.character_documents
 DROP TABLE IF EXISTS `character_documents`;
 CREATE TABLE IF NOT EXISTS `character_documents` (
   `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
@@ -236,7 +236,7 @@ CREATE TABLE IF NOT EXISTS `character_documents` (
 
 -- Data exporting was unselected.
 
--- Dumping structure for table fivem-sandboxrp.character_documents_shared
+-- Dumping structure for table fivem-Paradiserp.character_documents_shared
 DROP TABLE IF EXISTS `character_documents_shared`;
 CREATE TABLE IF NOT EXISTS `character_documents_shared` (
   `doc_id` int(10) unsigned NOT NULL,
@@ -256,7 +256,7 @@ CREATE TABLE IF NOT EXISTS `character_documents_shared` (
 
 -- Data exporting was unselected.
 
--- Dumping structure for table fivem-sandboxrp.character_emails
+-- Dumping structure for table fivem-Paradiserp.character_emails
 DROP TABLE IF EXISTS `character_emails`;
 CREATE TABLE IF NOT EXISTS `character_emails` (
   `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
@@ -274,7 +274,7 @@ CREATE TABLE IF NOT EXISTS `character_emails` (
 
 -- Data exporting was unselected.
 
--- Dumping structure for table fivem-sandboxrp.character_messages
+-- Dumping structure for table fivem-Paradiserp.character_messages
 DROP TABLE IF EXISTS `character_messages`;
 CREATE TABLE IF NOT EXISTS `character_messages` (
   `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
@@ -292,7 +292,7 @@ CREATE TABLE IF NOT EXISTS `character_messages` (
 
 -- Data exporting was unselected.
 
--- Dumping structure for table fivem-sandboxrp.character_parole
+-- Dumping structure for table fivem-Paradiserp.character_parole
 DROP TABLE IF EXISTS `character_parole`;
 CREATE TABLE IF NOT EXISTS `character_parole` (
   `SID` int(11) NOT NULL,
@@ -306,7 +306,7 @@ CREATE TABLE IF NOT EXISTS `character_parole` (
 
 -- Data exporting was unselected.
 
--- Dumping structure for table fivem-sandboxrp.character_photos
+-- Dumping structure for table fivem-Paradiserp.character_photos
 DROP TABLE IF EXISTS `character_photos`;
 CREATE TABLE IF NOT EXISTS `character_photos` (
   `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
@@ -319,7 +319,7 @@ CREATE TABLE IF NOT EXISTS `character_photos` (
 
 -- Data exporting was unselected.
 
--- Dumping structure for table fivem-sandboxrp.character_schematics
+-- Dumping structure for table fivem-Paradiserp.character_schematics
 DROP TABLE IF EXISTS `character_schematics`;
 CREATE TABLE IF NOT EXISTS `character_schematics` (
   `sid` int(11) DEFAULT NULL,
@@ -332,7 +332,7 @@ CREATE TABLE IF NOT EXISTS `character_schematics` (
 
 -- Data exporting was unselected.
 
--- Dumping structure for table fivem-sandboxrp.chatter_groups
+-- Dumping structure for table fivem-Paradiserp.chatter_groups
 DROP TABLE IF EXISTS `chatter_groups`;
 CREATE TABLE IF NOT EXISTS `chatter_groups` (
   `id` bigint(20) unsigned NOT NULL AUTO_INCREMENT,
@@ -345,7 +345,7 @@ CREATE TABLE IF NOT EXISTS `chatter_groups` (
 
 -- Data exporting was unselected.
 
--- Dumping structure for table fivem-sandboxrp.chatter_messages
+-- Dumping structure for table fivem-Paradiserp.chatter_messages
 DROP TABLE IF EXISTS `chatter_messages`;
 CREATE TABLE IF NOT EXISTS `chatter_messages` (
   `id` bigint(20) unsigned NOT NULL AUTO_INCREMENT,
@@ -361,7 +361,7 @@ CREATE TABLE IF NOT EXISTS `chatter_messages` (
 
 -- Data exporting was unselected.
 
--- Dumping structure for table fivem-sandboxrp.crafting_cooldowns
+-- Dumping structure for table fivem-Paradiserp.crafting_cooldowns
 DROP TABLE IF EXISTS `crafting_cooldowns`;
 CREATE TABLE IF NOT EXISTS `crafting_cooldowns` (
   `bench` varchar(64) NOT NULL,
@@ -371,7 +371,7 @@ CREATE TABLE IF NOT EXISTS `crafting_cooldowns` (
 
 -- Data exporting was unselected.
 
--- Dumping structure for table fivem-sandboxrp.donator_items
+-- Dumping structure for table fivem-Paradiserp.donator_items
 DROP TABLE IF EXISTS `donator_items`;
 CREATE TABLE IF NOT EXISTS `donator_items` (
   `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
@@ -387,7 +387,7 @@ CREATE TABLE IF NOT EXISTS `donator_items` (
 
 -- Data exporting was unselected.
 
--- Dumping structure for table fivem-sandboxrp.donor_created_item
+-- Dumping structure for table fivem-Paradiserp.donor_created_item
 DROP TABLE IF EXISTS `donor_created_item`;
 CREATE TABLE IF NOT EXISTS `donor_created_item` (
   `sid` int(11) NOT NULL,
@@ -399,7 +399,7 @@ CREATE TABLE IF NOT EXISTS `donor_created_item` (
 
 -- Data exporting was unselected.
 
--- Dumping structure for table fivem-sandboxrp.firearms
+-- Dumping structure for table fivem-Paradiserp.firearms
 DROP TABLE IF EXISTS `firearms`;
 CREATE TABLE IF NOT EXISTS `firearms` (
   `police_id` int(11) unsigned NOT NULL AUTO_INCREMENT,
@@ -419,7 +419,7 @@ CREATE TABLE IF NOT EXISTS `firearms` (
 
 -- Data exporting was unselected.
 
--- Dumping structure for table fivem-sandboxrp.firearms_flags
+-- Dumping structure for table fivem-Paradiserp.firearms_flags
 DROP TABLE IF EXISTS `firearms_flags`;
 CREATE TABLE IF NOT EXISTS `firearms_flags` (
   `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
@@ -438,7 +438,7 @@ CREATE TABLE IF NOT EXISTS `firearms_flags` (
 
 -- Data exporting was unselected.
 
--- Dumping structure for table fivem-sandboxrp.inventory
+-- Dumping structure for table fivem-Paradiserp.inventory
 DROP TABLE IF EXISTS `inventory`;
 CREATE TABLE IF NOT EXISTS `inventory` (
   `id` int(11) NOT NULL AUTO_INCREMENT,

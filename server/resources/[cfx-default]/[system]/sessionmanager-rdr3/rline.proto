@@ -174,7 +174,7 @@ message UriType {
 
 message TransitionReady_PlayerQueue_Parameters {
     UriType serverUri = 1;
-    uint32 serverSandbox = 2;
+    uint32 serverParadise = 2;
     MpTransitionIdDto id = 3;
     uint32 sessionType = 4;
     MpSessionRequestIdDto requestId = 5;
