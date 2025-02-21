@@ -1,4 +1,4 @@
-![Logo](https://i.ibb.co/Tm01NWq/banner.png)
+
 # Paradise RP
 This is a heavily modified version of Mythic Framework for Paradise RP. This is a custsom framework that uses a component system, all UI's are built in React. This codebase is being released with the full permissions of the original Mythic Framework authors Alzar & Dr Nick
 
